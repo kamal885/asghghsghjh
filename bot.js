@@ -29,4 +29,24 @@ client.on('ready', () => {
 
 
 
+
+
+
+
+
+client.on('message', DEL => {//By DEL || هاشم
+if(DEL.content === 'السلام عليكم') {
+DEL.reply ('وعليكم السلام')
+}
+});
+
+
+
+
+
+
+
 client.login(process.env.BOT_TOKEN);
+
+
+
